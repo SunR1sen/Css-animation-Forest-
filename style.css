@@ -19,8 +19,8 @@
     width: 100px;
     height: 100px;
     background-color: #fff;
-    top: 100px;
-    left: 400px;
+    top: 20%;
+    left: 30%;
     border-radius: 50%;
 }
 
@@ -43,9 +43,12 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 40%;
+    min-height: 40%;
+    /* height: 40%; */
     transform: scale(1.1);
     z-index: 1000;
+
+    object-fit: cover;
 }
 
 .scene i {
